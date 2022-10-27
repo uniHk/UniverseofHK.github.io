@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T11:05:33.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GYofUTyf9cvNlCUszPZP" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T12:35:05.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Af2aD_Mee09AWQbJzifR" version="20.2.6" type="github">
   <diagram id="4TESjkNXuP9GcE6SSmEx" name="第 1 页">
-    <mxGraphModel dx="-885.25" dy="-4042.89" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-199.63" dy="-3859.73" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,26 +256,16 @@
             <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-55" value="IPhyVehicleSuspensionComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="809" y="4473" width="225" height="52" as="geometry">
-            <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-59" value="PhyVehicleExtraVelocity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1927" y="4467" width="225" height="52" as="geometry">
-            <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-61" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49" target="rABgtZAiVBhhrzIrB-1S-51">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="992" y="4457" as="sourcePoint" />
             <mxPoint x="1152" y="4457" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-62" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49" target="rABgtZAiVBhhrzIrB-1S-55">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-62" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="866" y="4271" as="sourcePoint" />
-            <mxPoint x="666.5" y="4373" as="targetPoint" />
+            <mxPoint x="921.526023136807" y="4473" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-65" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49" target="rABgtZAiVBhhrzIrB-1S-99">
@@ -296,10 +286,10 @@
             <mxPoint x="2588.50813662365" y="4467" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-68" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49" target="rABgtZAiVBhhrzIrB-1S-59">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-68" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-49" target="rABgtZAiVBhhrzIrB-1S-123">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="795" y="4592" as="sourcePoint" />
-            <mxPoint x="955" y="4592" as="targetPoint" />
+            <mxPoint x="2039.526151631873" y="4467" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-72" value="KartSuspension" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -317,43 +307,33 @@
             <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-78" value="KartMotorization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1082" y="4699" width="225" height="51" as="geometry">
-            <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-80" value="StepOverMotorization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1359" y="4698" width="225" height="51" as="geometry">
-            <mxRectangle x="863" y="3929" width="183" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-84" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-72" target="rABgtZAiVBhhrzIrB-1S-55">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-84" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-72" target="rABgtZAiVBhhrzIrB-1S-112">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="649" y="4943" as="sourcePoint" />
-            <mxPoint x="809" y="4943" as="targetPoint" />
+            <mxPoint x="861.1017699115043" y="4525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-85" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-73" target="rABgtZAiVBhhrzIrB-1S-55">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-85" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-73" target="rABgtZAiVBhhrzIrB-1S-112">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="659" y="4953" as="sourcePoint" />
-            <mxPoint x="819" y="4953" as="targetPoint" />
+            <mxPoint x="891.7527716186253" y="4525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-86" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-74" target="rABgtZAiVBhhrzIrB-1S-55">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-86" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-74" target="rABgtZAiVBhhrzIrB-1S-112">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="669" y="4963" as="sourcePoint" />
-            <mxPoint x="829" y="4963" as="targetPoint" />
+            <mxPoint x="921.616331096197" y="4525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-87" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-78" target="rABgtZAiVBhhrzIrB-1S-99">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-87" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-116" target="rABgtZAiVBhhrzIrB-1S-99">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="679" y="4973" as="sourcePoint" />
+            <mxPoint x="1211.2068965517242" y="4699" as="sourcePoint" />
             <mxPoint x="1312.497830802603" y="4520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-88" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-80" target="rABgtZAiVBhhrzIrB-1S-99">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-88" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-119" target="rABgtZAiVBhhrzIrB-1S-99">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="689" y="4983" as="sourcePoint" />
+            <mxPoint x="1455.6581986143187" y="4698" as="sourcePoint" />
             <mxPoint x="1343.813725490196" y="4520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -364,16 +344,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-99" value="IPhyVehicleMotorComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1197" y="4468" width="280" height="52" as="geometry" />
+          <mxGeometry x="1197" y="4468" width="280" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-100" value="+ calcSuspensionSupport(outLinVel, outAngVel)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-99">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-100" value="+ updateMotor 动力学或纯运动学模拟" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-99">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-114" value="+ postSimulation 结合其他组件，保证赛车稳定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-99">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-102" value="PhyVehicleWheelCollide" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1609" y="4697" width="280" height="52" as="geometry" />
+          <mxGeometry x="1609" y="4697" width="280" height="78" as="geometry" />
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-103" value="+ doWheelPick" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-102">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-121" value="提供各类Pick信息" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-102">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-105" value="IPhyVehicleWheelPickComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1608" y="4468" width="280" height="52" as="geometry" />
@@ -398,6 +384,33 @@
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-111" value="+ postSimulateVehicleApplyCollision" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-110">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-112" value="IPhyVehicleSuspensionComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="783" y="4473" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-113" value="+ calcSuspensionSupport(outLinVel, outAngVel)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-112">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-122" value="稳定车身，不穿地" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-112">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-116" value="KartMotorization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="4696" width="193" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-118" value="正常" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-116">
+          <mxGeometry y="26" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-119" value="StepOverMotorization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="4698" width="193" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-120" value="强设速度、位置" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-119">
+          <mxGeometry y="26" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-123" value="PhyVehicleExtraVelocity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1933" y="4469" width="218" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-124" value="+ 添加额外速度、力、冲量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rABgtZAiVBhhrzIrB-1S-123">
+          <mxGeometry y="26" width="218" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
