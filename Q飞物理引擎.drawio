@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T18:20:18.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3yO5oJ-VZJ6JrfmR6qWq" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T02:57:49.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hW9RMFDi8wjYgsnCmG5w" version="20.2.6" type="github">
   <diagram id="4TESjkNXuP9GcE6SSmEx" name="第 1 页">
-    <mxGraphModel dx="823.14" dy="-5021.1" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="302.9" dy="-5901.25" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
         <mxCell id="rABgtZAiVBhhrzIrB-1S-138" value="&lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PhyVehicleHavokAction&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="72" y="5152" width="261" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rABgtZAiVBhhrzIrB-1S-142" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri&quot;&gt;KartMotorization&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-142" value="&lt;p&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;IPhyVehicleMotorComponent&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="72" y="5336" width="261" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rABgtZAiVBhhrzIrB-1S-143" value="applyAction" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-138" target="rABgtZAiVBhhrzIrB-1S-142">
@@ -479,6 +479,45 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="195.5280172413793" y="5396" as="sourcePoint" />
             <mxPoint x="71.97198275862068" y="5578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-151" value="&lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PhyVehicleHavokAction&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="5903" width="261" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-152" value="&lt;p&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;IPhyVehicleMotorComponent&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="6087" width="261" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-153" value="applyPostAction" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-151" target="rABgtZAiVBhhrzIrB-1S-152">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="615" y="5935" as="sourcePoint" />
+            <mxPoint x="775" y="5935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-156" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;IPhyVehicleSuspensionComponent&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;稳定车身，不穿地&lt;/span&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="6307" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-157" value="postSimulation" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-152" target="rABgtZAiVBhhrzIrB-1S-156">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="184.5280172413793" y="6147" as="sourcePoint" />
+            <mxPoint x="60.97198275862068" y="6329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-158" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;KartKartCollider&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;车车碰撞处理&lt;/span&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="6307" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-159" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;KartWallCollider&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;车墙碰撞处理&lt;/span&gt;&lt;/p&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="6306" width="174" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-160" value="applyCollision" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-152" target="rABgtZAiVBhhrzIrB-1S-158">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="185.91780821917808" y="6147" as="sourcePoint" />
+            <mxPoint x="80.58219178082192" y="6316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rABgtZAiVBhhrzIrB-1S-161" value="applyCollision" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="rABgtZAiVBhhrzIrB-1S-152" target="rABgtZAiVBhhrzIrB-1S-159">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="215.48401826484013" y="6147" as="sourcePoint" />
+            <mxPoint x="310.01598173515976" y="6316" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
