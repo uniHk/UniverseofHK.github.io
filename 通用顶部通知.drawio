@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T02:58:38.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.6" etag="s6vqktRFpZhFkBXUJkw8" type="github"><diagram id="whWlJXZDOgFeLWVCNp7h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-07T03:35:29.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Zhwahgc3bsN4gwHFwXmY" version="20.2.6" type="github">
+  <diagram id="whWlJXZDOgFeLWVCNp7h" name="第 1 页">
+    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHr0Wacuzlm3nrbciAuY-1" target="AHr0Wacuzlm3nrbciAuY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-1" value="开始输入，填入：&lt;br&gt;展示时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHr0Wacuzlm3nrbciAuY-3" target="AHr0Wacuzlm3nrbciAuY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-3" value="按顺序输入原子信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHr0Wacuzlm3nrbciAuY-5" target="AHr0Wacuzlm3nrbciAuY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-5" value="结束输入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-7" value="计算尺寸&lt;br&gt;计算偏移&lt;br&gt;展示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHr0Wacuzlm3nrbciAuY-9" target="AHr0Wacuzlm3nrbciAuY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-9" value="从缓存池里取对应原子GO，填入数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-12" value="定义三种原子的输入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-13" value="图标：&lt;br&gt;Atlas&lt;br&gt;Sprite&lt;br&gt;SizeX&lt;br&gt;SizeY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="405" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-14" value="文字：&lt;br&gt;Text&lt;br&gt;FontSize" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="560" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AHr0Wacuzlm3nrbciAuY-15" value="数字：&lt;br&gt;Number&lt;br&gt;FontSize" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="120" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
