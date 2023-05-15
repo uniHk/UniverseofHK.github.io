@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T06:07:47.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="zgNRlUEIZ-Ujgnft6W2Y" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T06:08:16.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="52_SE-nDPMhcK9hbvM5P" version="21.3.0" type="github">
   <diagram name="第 1 页" id="SBBcEX3WwOpEmxqMoVgK">
     <mxGraphModel dx="2555" dy="937" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,6 +408,9 @@
           <mxGeometry x="-0.265" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7qwTtEkE28KoftxE3ZBL-127" value="V38练图模块相关更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-632" y="2472" width="167" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
