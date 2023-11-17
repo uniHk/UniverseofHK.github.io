@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T07:09:21.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ydDV2eg5mD1DwEJQxrnU" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T07:09:41.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="WkngVGGdL_NpylQOxZK6" version="21.7.5" type="github">
   <diagram name="第 1 页" id="blZ6Hque6HxMYcn_j2YN">
-    <mxGraphModel dx="3133" dy="1119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3710" dy="1399" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
           <mxGeometry y="26" width="287" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QRKfj2_TiTvo_oE3qIy_-20" value="LSPlayerKeyboradInputer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1127" width="173" height="104" as="geometry" />
+          <mxGeometry x="54" y="1120" width="173" height="104" as="geometry" />
         </mxCell>
         <mxCell id="QRKfj2_TiTvo_oE3qIy_-21" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QRKfj2_TiTvo_oE3qIy_-20">
           <mxGeometry y="26" width="173" height="26" as="geometry" />
@@ -204,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QRKfj2_TiTvo_oE3qIy_-119" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-56" y="1379" width="698" height="500" as="geometry" />
+          <mxGeometry x="7.5" y="1363" width="698" height="500" as="geometry" />
         </mxCell>
         <mxCell id="QRKfj2_TiTvo_oE3qIy_-136" value="" style="group" vertex="1" connectable="0" parent="QRKfj2_TiTvo_oE3qIy_-119">
           <mxGeometry x="-2" width="698" height="395" as="geometry" />
