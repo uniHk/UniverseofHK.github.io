@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T02:56:02.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="7KMz7slLOBiKLxaRHLvj" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T03:00:27.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="U47h9Ll-IrrKcqNgB7Wd" version="24.6.4" type="github">
   <diagram id="Ax77-aeBAXgPwB1YAavE" name="第 1 页">
     <mxGraphModel dx="2306" dy="1111" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,18 @@
             <mxPoint x="1506" y="3171" as="sourcePoint" />
             <mxPoint x="1666" y="3171" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9zIJukz-7zUdvR-hHsVO-36" value="InterruptEvent 打断事件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="3679" width="225" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="9zIJukz-7zUdvR-hHsVO-37" value="+ UID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9zIJukz-7zUdvR-hHsVO-36">
+          <mxGeometry y="26" width="225" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9zIJukz-7zUdvR-hHsVO-38" value="+ InterruptedProperty 被打断属性状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9zIJukz-7zUdvR-hHsVO-36">
+          <mxGeometry y="52" width="225" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9zIJukz-7zUdvR-hHsVO-39" value="+ SrcAction 源打断行为" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9zIJukz-7zUdvR-hHsVO-36">
+          <mxGeometry y="78" width="225" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
