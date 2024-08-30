@@ -762,6 +762,25 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zofNb96eQF-plgFp84Yx-74" value="hkpCdBody" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3413" y="-464" width="257" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="zofNb96eQF-plgFp84Yx-75" value="+ m_shape: const hkpShape*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zofNb96eQF-plgFp84Yx-74">
+          <mxGeometry y="26" width="257" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zofNb96eQF-plgFp84Yx-76" value="+ m_shapeKey: hkpShapeKey" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zofNb96eQF-plgFp84Yx-74">
+          <mxGeometry y="52" width="257" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zofNb96eQF-plgFp84Yx-77" value="+ m_parent: const hkpCdBody*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zofNb96eQF-plgFp84Yx-74">
+          <mxGeometry y="78" width="257" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zofNb96eQF-plgFp84Yx-78" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="zofNb96eQF-plgFp84Yx-69" target="zofNb96eQF-plgFp84Yx-74">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3547" y="23" as="sourcePoint" />
+            <mxPoint x="3545" y="-112" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
