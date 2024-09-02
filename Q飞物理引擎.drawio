@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.8">
   <diagram id="4TESjkNXuP9GcE6SSmEx" name="第 1 页">
-    <mxGraphModel dx="6983" dy="4820" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4169" dy="3269" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,16 +662,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zofNb96eQF-plgFp84Yx-45" value="hkpWorldPostSimulationListener" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2694" y="1159" width="195" height="104" as="geometry" />
+          <mxGeometry x="2636" y="1159" width="253" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="zofNb96eQF-plgFp84Yx-46" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
-          <mxGeometry y="26" width="195" height="26" as="geometry" />
+        <mxCell id="zofNb96eQF-plgFp84Yx-46" value="+ entityAddedCallback(hkpEntity* entity)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
+          <mxGeometry y="26" width="253" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zofNb96eQF-plgFp84Yx-47" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
-          <mxGeometry y="52" width="195" height="26" as="geometry" />
+        <mxCell id="zofNb96eQF-plgFp84Yx-47" value="+ entityRemovedCallback(hkpEntity* entity)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
+          <mxGeometry y="52" width="253" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zofNb96eQF-plgFp84Yx-48" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
-          <mxGeometry y="78" width="195" height="26" as="geometry" />
+        <mxCell id="zofNb96eQF-plgFp84Yx-48" value="+ entityDeletedCallback(hkpEntity* entity)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zofNb96eQF-plgFp84Yx-45" vertex="1">
+          <mxGeometry y="78" width="253" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zofNb96eQF-plgFp84Yx-49" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="zofNb96eQF-plgFp84Yx-23" target="zofNb96eQF-plgFp84Yx-45" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
