@@ -1468,10 +1468,19 @@
           <mxGeometry y="130" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K3Gz-Y6VDljqO7mLtE-o-45" value="IPhyEntity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4267" y="1914" width="361" height="52" as="geometry" />
+          <mxGeometry x="4231" y="1916" width="361" height="130" as="geometry" />
         </mxCell>
         <mxCell id="K3Gz-Y6VDljqO7mLtE-o-46" value="物理实体，与unity交互的最终封装" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="K3Gz-Y6VDljqO7mLtE-o-45">
           <mxGeometry y="26" width="361" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="K3Gz-Y6VDljqO7mLtE-o-78" value="+&amp;nbsp;m_trigger:&amp;nbsp;IPhyTrigger" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="K3Gz-Y6VDljqO7mLtE-o-45">
+          <mxGeometry y="52" width="361" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="K3Gz-Y6VDljqO7mLtE-o-79" value="+ m_roadAttachMotor:&amp;nbsp;PhyRoadAttachMotor*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="K3Gz-Y6VDljqO7mLtE-o-45">
+          <mxGeometry y="78" width="361" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="K3Gz-Y6VDljqO7mLtE-o-80" value="+ Get/SetTriggerEnable(enable)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="K3Gz-Y6VDljqO7mLtE-o-45">
+          <mxGeometry y="104" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K3Gz-Y6VDljqO7mLtE-o-47" value="NssPhyEntityBase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="3258" y="3760" width="361" height="52" as="geometry" />
@@ -1576,6 +1585,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3515" y="3179" as="sourcePoint" />
             <mxPoint x="3565" y="3129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3Gz-Y6VDljqO7mLtE-o-77" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="K3Gz-Y6VDljqO7mLtE-o-45" target="zofNb96eQF-plgFp84Yx-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3804" y="1962" as="sourcePoint" />
+            <mxPoint x="3964" y="1962" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
