@@ -1441,7 +1441,7 @@
           <mxGeometry x="907" y="-1282" width="4810" height="3880" as="geometry" />
         </mxCell>
         <mxCell id="K3Gz-Y6VDljqO7mLtE-o-25" value="PhyEntityMgr" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3246" y="2982" width="395" height="78" as="geometry" />
+          <mxGeometry x="3240" y="2982" width="395" height="78" as="geometry" />
         </mxCell>
         <mxCell id="K3Gz-Y6VDljqO7mLtE-o-26" value="批量获取全局触发数据，并做事件分发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="K3Gz-Y6VDljqO7mLtE-o-25">
           <mxGeometry y="26" width="395" height="26" as="geometry" />
